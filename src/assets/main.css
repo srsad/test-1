@@ -1,0 +1,45 @@
+@import './base.css';
+
+.nav {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.nav .nav__item {
+  color: var(--vt-c-indigo);
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.nav .router-link-active {
+  color: var(--vt-c-green);
+}
+
+.color-green {
+  color: var(--vt-c-green);
+}
+
+.color-red {
+  color: var(--vt-c-red);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+input, select {
+  width: 200px;
+  padding: 4px;
+  border: 1px solid var(--vt-c-text-light-2);
+  transition: all 0.2s;
+}
+
+input:hover,
+input:focus,
+input:active,
+select:hover,
+select:focus,
+select:active {
+  border-color: var(--vt-c-green);
+}
